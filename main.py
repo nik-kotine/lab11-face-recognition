@@ -9,9 +9,14 @@ from pgvector.psycopg2 import register_vector
 from dotenv import load_dotenv
 
 # p0: configuracion basica
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
 DATASET_PATH = os.getenv('DATASET_PATH')
 PHOTO_PATH = os.getenv('PHOTO_PATH')
-SALIDA = os.getenv('SALIDA')
+SALIDA = os.getenv('SALIDA', 'outputs')
 
 DB = {
     'host': os.getenv('DB_HOST'),
