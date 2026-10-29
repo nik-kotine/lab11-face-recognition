@@ -1,0 +1,6 @@
+numpy
+pandas
+matplotlib
+face-recognition
+psycopg2-binary
+pgvector

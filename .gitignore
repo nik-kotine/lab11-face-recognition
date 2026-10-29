@@ -1,0 +1,7 @@
+.venv/
+.env
+__pycache__/
+embeddings_full.npz
+mi_foto.jpg
+lfw/lfw_funneled/
+outputs/
