@@ -4,3 +4,4 @@ matplotlib
 face-recognition
 psycopg2-binary
 pgvector
+python-dotenv

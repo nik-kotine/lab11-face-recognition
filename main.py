@@ -6,6 +6,7 @@ import face_recognition
 import psycopg2
 from psycopg2.extras import execute_values
 from pgvector.psycopg2 import register_vector
+from dotenv import load_dotenv
 
 # p0: configuracion basica
 DATASET_PATH = os.getenv('DATASET_PATH')
